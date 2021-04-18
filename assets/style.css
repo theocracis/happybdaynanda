@@ -1,0 +1,102 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header .line {
+    background-color: #d9ff01;
+    height: 10px;
+}
+
+.logo-area{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo-area h1 {
+    font-size: 55px;
+}
+
+.logo-area img {
+    width: 120px;
+    height: 120px;;
+    border-radius: 50%;
+    border: 3px solid #000;
+    margin: 20px 30px;
+
+}
+
+
+.section-bday--photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+
+.section-bday--photo {
+    width: 280px;
+}
+
+.section-bday--photoarea {
+    margin: 10px;
+    width:260px;
+    height: 230px;
+}
+.section-bday--photoarea img {
+    width: inherit;
+    height: inherit;
+}
+.section-bday--photoinfo{
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.7);
+    width:inherit;
+    height:inherit;
+    display:none;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    flex-direction: column;
+    text-align: center;
+
+}
+.section-bday--photoinfo h5{
+    font-size:18px;
+    font-weight: 600px;
+}
+
+.section-bday--photoarea:hover .section-bday--photoinfo{
+    display:flex;
+}
+
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #4e4e4e;
+    font-size:11px;
+    font-weight: 600;
+    text-decoration:none;
+    padding: 15px 35px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+
+}
+.taylor, .happybday{
+  margin: auto;
+}
+
+.happybday{
+    margin-bottom: 50px;
+}

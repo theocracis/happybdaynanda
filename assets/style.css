@@ -6,6 +6,7 @@ body {
 header .line {
     background-color: #d9ff01;
     height: 10px;
+    width: 100vw;
 }
 
 .logo-area{

@@ -154,6 +154,24 @@ li span {
 .step-2 .giftbox .box {
   animation: flyDown 2s ease-in 0.05s forwards;
 }
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #4e4e4e;
+    font-size:11px;
+    font-weight: 600;
+    text-decoration:none;
+    padding: 15px 35px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.back {
+    margin: auto;
+}
+nav{
+    display:flex;
+}
 @keyframes wobble {
   25% {
       transform: rotate(4deg);

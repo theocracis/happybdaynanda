@@ -172,6 +172,13 @@ li span {
 nav{
     display:flex;
 }
+
+.parabens audio{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 710px;
+}
+
 @keyframes wobble {
   25% {
       transform: rotate(4deg);

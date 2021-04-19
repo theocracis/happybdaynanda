@@ -67,8 +67,11 @@ header .line {
 
 }
 .section-bday--photoinfo h5{
-    font-size:18px;
+    font-size:17px;
     font-weight: 600px;
+}
+.section-bday--photoinfo P {
+    font-size: 15px;
 }
 
 .section-bday--photoarea:hover .section-bday--photoinfo{
@@ -83,8 +86,8 @@ header .line {
     font-size:11px;
     font-weight: 600;
     text-decoration:none;
-    padding: 15px 35px;
-    margin-top: 30px;
+    padding: 13px 33px;
+    margin-top: 20px;
     border-radius: 20px;
 }
 

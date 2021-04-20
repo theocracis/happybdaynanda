@@ -42,11 +42,16 @@ header .line {
     border: 2px solid black;
     margin: 20px;
 }
-
-.texto h1 {
+.textog{
+    width: 530px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 20px;
+}
+.texto h1, .textog h1 {
     text-align: center;
 }
-.texto p {
+.texto p, .textog p {
     padding: 15px;
 }
 .button{
